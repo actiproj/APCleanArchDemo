@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Application", "CleanArch.Application", "{E07F6AF4-8A7B-46F1-A9AD-3B2113C54BD6}"
 EndProject
@@ -15,8 +15,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanAr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.API", "CleanArch.API", "{3429BAA6-C365-41CA-9CD2-0770CBFE1F4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{ACE724C7-F36E-493A-B63C-55DB618CFBA7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE724C7-F36E-493A-B63C-55DB618CFBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE724C7-F36E-493A-B63C-55DB618CFBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE724C7-F36E-493A-B63C-55DB618CFBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE724C7-F36E-493A-B63C-55DB618CFBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACE724C7-F36E-493A-B63C-55DB618CFBA7} = {487A70A7-A4A6-4858-9642-5BA3A4ED888B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6089605C-00BE-43AA-A2B5-814578EB23E3}
 	EndGlobalSection
 EndGlobal
